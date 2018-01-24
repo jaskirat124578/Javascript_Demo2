@@ -1,0 +1,50 @@
+<html>
+
+<head>
+
+	<script>
+
+		function ChangeColor()
+		{
+
+					var msg = document.getElementById("msg");
+
+					msg.style.backgroundColor = 'green';
+
+					msg.style.fontSize = '50px';
+					msg.style.fontFamily = 'Arial Black';
+					msg.style.color = 'White';
+
+
+		}
+
+		function ChangeColor1()
+		{
+
+					var msg = document.getElementById("msg");
+
+					msg.style.backgroundColor = 'white';
+
+					msg.style.fontSize = '20px';
+					msg.style.fontFamily = 'Times new Roman';
+					msg.style.color = 'Black';
+
+
+		}
+
+	</script>
+
+</head>
+
+<body id=bd>
+
+
+<br><input type=button OnMouseOver=ChangeColor() OnMouseOut=ChangeColor1() value=Change />
+
+ <p id=msg  >My name is Jaskirat <p/>
+
+
+
+</body>
+
+</html>

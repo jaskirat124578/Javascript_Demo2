@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+	<script>
+
+		function RedColor()
+		{
+
+					var msg = document.getElementById("msg");
+					msg.src = 'Redchair.jpg';
+					msg.style.width = "300px";
+					msg.style.height = "300px";
+		}
+
+		function GreenColor()
+		{
+
+					var msg = document.getElementById("msg");
+					msg.src = 'Greenchair.jpg';
+
+					msg.style.width = "256px";
+					msg.style.height = "256px";
+
+		}
+
+	</script>
+
+</head>
+
+<body id=bd>
+
+
+
+
+ <img id=msg OnMouseOver=RedColor() OnMouseOut=GreenColor() src=Greenchair.jpg />
+
+
+
+</body>
+
+</html>
